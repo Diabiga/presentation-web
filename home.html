@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mon Site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Bienvenue sur Mon Site</h1>
+        <p>Notre entreprise propose des services de qualité pour nos clients.</p>
+    </section>
+    <section id="about">
+        <h2>À propos de nous</h2>
+        <p>Notre entreprise a été créée en 2020 et depuis nous avons travaillé avec succès avec de nombreux clients.</p>
+    </section>
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+        </ul>
+    </section>
+    <section id="clients">
+        <h2>Nos Clients</h2>
+        <ul>
+            <li>Client 1</li>
+            <li>Client 2</li>
+            <li>Client 3</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Copyright © 2023 Mon Site</p>
+        </div>
+    </footer>
+</body>
+
+</html>
